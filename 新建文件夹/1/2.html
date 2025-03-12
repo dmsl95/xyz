@@ -1,0 +1,37 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head><meta name="sentry-trace" content="4a3d1aea8632c88996e23794b561f584-06ae938f6cf7ba8e-0" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>可以成为我的恋人吗？</title>
+    <link rel="stylesheet" href="2.css">
+     <!-- 设置网页图标 -->
+     <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon">
+     <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
+ </head>
+</head>
+<body>
+    <!-- 用于输入名字的容器 -->
+    <div id="nameInputContainer" style="display: none;">
+        <div id="sidehead-wrapper">
+             <!-- 新增可点击链接元素 -->
+            <img id="sidehead" src="assets/images/sidehead.png" alt="侧头">           
+        </div>
+        <h1>你希望我怎么称呼你呢？<span style="font-size: 2vw;">(*>﹏<*)′</span></h1>
+        <p style="font-size: 2vw;">不想告诉我的话也可以留空哦</p>
+        <input type="text" id="usernameInput" placeholder="请输入你的名字">
+        <button id="confirmNameButton">是这个名字呢</button>
+    </div>
+    <!-- 表白内容容器 -->
+    <div class="container" id="confessionContainer" style="display: none;">
+        <img id="mainImage" src="assets/images/heart.png" alt="爱心">
+        <h1 id="question">可以成为我的恋人吗？</h1>
+        <div class="buttons">
+            <button id="yes">可以</button>
+            <button id="no">不要</button>
+        </div>
+    </div>
+    <script src="2.js"></script>
+</body>
+</html>
